@@ -1,0 +1,144 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f3f3f3;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #232f3e;
+    padding: 10px;
+}
+
+.logo img {
+    height: 100%;
+}
+.address img{
+    height: 40px;
+}
+.address{
+    color: white;
+}
+
+
+.search-bar input {
+    padding: 5px;
+    border: none;
+    border-radius: 4px;
+}
+
+.search-bar button {
+    padding: 5px;
+    background-color: #febd69;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+.account{
+    color: white;
+}
+nav {
+    background-color: #37475a;
+    padding: 10px;
+}
+
+nav ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-around;
+    color: white;
+}
+
+main {
+    height: 500px;
+    padding: 20px;
+    background-image: url("background\ picture.png");
+}
+
+.featured-products {
+    margin-top: 20px;
+    position: relative;
+    top: 250px;
+
+}
+#left{
+    position: absolute;
+    left: 75px;
+    top: 350px;
+}
+#right{
+    position: absolute;
+    right: 75px;
+    top: 350px;
+}
+.product-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.product {
+    background-color: white;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    width: 200px;
+    text-align: center;
+}
+.product2 {
+    background-color: white;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    width: 200px;
+    text-align: center;
+}
+.product3 {
+    background-color: white;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    width: 200px;
+    text-align: center;
+}
+.product4 {
+    background-color: white;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    width: 200px;
+    text-align: center;
+}
+.product5 {
+    background-color: white;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    width: 200px;
+    text-align: center;
+}
+.product6 {
+    background-color: white;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    width: 200px;
+    text-align: center;
+}
+
+
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #232f3e;
+    color: white;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+.orders{
+    color: white;
+}
